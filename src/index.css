@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+  color: #493b32;
+  background: #f8f5ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+  --cream: #f8f5ee;
+  --paper: #fffcf6;
+  --chocolate: #493b32;
+  --muted: #89796b;
+  --red: #9e4338;
+  --line: #e6ded1;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', 'Batang', 'Nanum Myeongjo', serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, a { -webkit-tap-highlight-color: transparent; }
+button, input { font: inherit; }
+button, a { touch-action: manipulation; }
+button { cursor: pointer; color: inherit; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #a85d41; outline-offset: 5px; }
+h1, h2, p { margin: 0; }
+::selection { background: #edd7c6; color: #493b32; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
